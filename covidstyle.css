@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(255, 255, 255);/* #222222 */
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 100px auto;
+    max-width: 1200;
+    
+    line-height: 1.6;
+}
+
+h1, h3{
+    line-height: 1;
+}
+
+.center
+{margin-left: auto;
+    margin-right: auto;
+
+}
+table{
+    max-width: 60%;
+}
+td
+{border-radius: 5px;
+}
+th
+{background-color: rgb(210, 255, 86);
+
+}
+
+td:nth-child(1)
+{ color: white;
+  background-color: rgb(86, 0, 167);
+}
+td:nth-child(2)
+  {
+    background-color: rgb(231, 242, 255);
+  }
+  a{
+    color: rgb(228, 65, 0);
+  }
+  footer { position: relative;
+    background-color: rgb(29, 0, 97);
+    color: white;
+  }
